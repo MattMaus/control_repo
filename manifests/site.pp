@@ -4,4 +4,7 @@ node default {
     content => 'Bien le kikoo les assujetis !',
     owner => 'root',
   }
+  file {'/root/README':
+     owner => 'root',  
+  }
 }
